@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/white"
+                android:orientation="vertical">
+
+    <com.example.lenovo.dragdroplistitem.sdlv.src.main.java.com.yydcdut.sdlv.SlideAndDragListView
+        android:id="@+id/lv_edit"
+        android:layout_width="200dp"
+        android:layout_height="fill_parent"
+
+        android:dividerHeight="1dip"
+        android:listSelector="@drawable/list_selector"
+       >
+    </com.example.lenovo.dragdroplistitem.sdlv.src.main.java.com.yydcdut.sdlv.SlideAndDragListView>
+
+</RelativeLayout>
